@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css"></link>
+</head>
+<body>
+
+    <!-- section1 -->
+    <div class="text-[#02042b]">
+        <div class="w-[1080px] flex flex-col items-center mx-auto relative ">
+            <div class="flex justify-between w-full p-2 py-4">
+                <div class="font-bold text-3xl">
+                    <p>Park<span class="text-blue-500">In</span></p>
+                </div>
+                <div class="flex justify-between gap-5 text-xl">
+                    <p>Home</p>
+                    <p>About</p>
+                    <p>Problem Statement</p>
+                    <p>Solution</p>
+                    <p>Statistics</p>
+                </div>
+            </div>
+            <div class="flex gap-4">
+                <div class="flex-[0.5]">
+                    <img src="https://images.unsplash.com/photo-1506521781263-d8422e82f27a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGFya2luZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80" alt="">
+                </div>
+                <div class="flex-[0.5] flex flex-col gap-4 justify-center">
+                    <p class="font-bold text-5xl">Find Amazing Parking Space Near You</p>
+                    <p class="text-2xl text-gray-700">Discover convenient parking solutions near you. Find the perfect parking space to suit your needs and enjoy hassle-free access wherever you go</p>
+                </div>
+            </div>  
+        </div>
+    </div>
+
+    <!-- section2 -->
+    <div class="bg-[#02042b] text-gray-200 py-10 my-16">
+        <div class="w-[1080px] mx-auto flex flex-col gap-2 items-center">
+            <p class="font-bold text-5xl">Problem Statement</p>
+            <p class="text-lg text-center mx-auto">Design and develop a smart parking system that addresses the challenges of urban congestion, inefficient parking space utilization, and the inconvenience faced by drivers in finding available parking spots in crowded areas. The system should leverage modern technologies to provide an efficient, user-friendly, and automated solution for both drivers and parking lot operators.</p>
+        </div>
+    </div>
+
+    <!-- section3 -->
+    <div class="text-[#02042b] my-10">
+        <div class="w-[1080px] mx-auto flex flex-col items-center gap-3">
+            <p class="text-5xl font-bold">Solution</p>
+            <p class="text-center text-gray-700 text-lg">We have proposed a software that allows user to get into the parking lot seemlessly while the system detects its number plate and allots it a parking slot. While exiting it detects the number plate and charges the user according to the time of entry amnd exit.</p>
+            <div class="flex w-full">
+                <div class="flex-[0.5] flex flex-col items-center gap-5 py-10 border-2">
+                    <p class="text-2xl">For Entring The Parking Lot</p>
+                    <button class="bg-blue-500 text-white font-bold text-2xl rounded-full px-5 py-2">Entry</button>
+                </div>
+                <div class="flex-[0.5] flex flex-col items-center gap-5 py-10 border-2">
+                    <p class="text-2xl">For Exiting The Parking Lot</p>
+                    <button class="bg-blue-500 text-white font-bold text-2xl rounded-full px-5 py-2">Exit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section4 -->
+    <div class="bg-[#02042b] text-white p-10">
+        <div class="w-[1080px] mx-auto  flex flex-col items-center gap-5">
+            <p class="text-5xl font-bold">For Admin Priviledges</p>
+            <div class="flex gap-2">
+                <div class="flex-[0.5]">
+                    <img src="https://images.unsplash.com/photo-1492551557933-34265f7af79e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGFkbWlufGVufDB8fDB8fHww&w=1000&q=80" alt="">
+                </div>
+                <div class="flex-[0.5] border-2 rounded-3xl border-gray-600 p-5 flex flex-col gap-2 justify-center" rounded-lg">
+                    <div class="flex items-center gap-2">
+                        <label class="text-lg flex-1" for="">Enter The Number Of Slots : </label>
+                        <div  class="bg-[#02042b] p-2 rounded-full border-2">
+                            <input class="text-xl rounded-full bg-[#02042b] text-input text-white outline-none border-[#02042b] border-0"  placeholder="Total Slots" class="border-gray-500 boder-1 rounded-3xl px-2" type="text">
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-2"  >
+                        <label class="text-lg flex-1"  for="">Enter the slot alloted :</label>
+                        <div class="bg-[#02042b] p-2 rounded-full border-2">
+                            <input class="text-xl rounded-full bg-[#02042b] text-input text-white outline-none border-0"   placeholder="Available Slots" class="border-gray-500 boder-1 px-2" type="text">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section5 -->
+    <div class="text-[#02042b] bg-white">
+        <div class="w-[1080px] mx-auto flex flex-col items-center my-5 gap-1 py-5">
+            <p class="text-5xl font-bold">Statistics</p>
+            <div class="p-10 w-1/2">
+                <img class="" src="results.png" alt="">
+            </div>
+            <div class="flex w-full p-10 h-32 gap-2">
+                <div class="flex-[0.5]">
+                    <img class="h-full" src="confusion_matrix.png" alt="">
+                </div>
+                <div class="flex-[0.5]"">
+                    <img class="h-full" src="F1_curve.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="bg-[#02042b] text-white">
+        <div class="w-[1080px] mx-auto flex flex-col items-center p-5">
+            <p class="font-extrabold text-5xl">Team Members</p>
+            <div class="flex flex-col w-full font-bold">
+                <div class="flex w-full">
+                    <div class="flex-[0.5] text-3xl flex flex-col justify-center items-center p-5">
+                        <p>Abhyuday Hari Prasad</p>
+                    </div>
+                    <div class="flex-[0.5] text-3xl flex flex-col justify-center items-center p-5">
+                        <p>Rahul Kumar</p>
+                    </div>
+                </div>
+                <div class="flex w-full">
+                    <div class="flex-[0.5] text-3xl flex flex-col justify-center items-center p-5">
+                        <p>Yatharth Singhal</p>
+                    </div>
+                    <div class="flex-[0.5] text-3xl flex flex-col justify-center items-center p-5">
+                        <p>Ayush Gupta</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
